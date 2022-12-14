@@ -189,6 +189,42 @@ body {
     color: #fff;
 }
 
+/* .product_02 */
+.product_02 {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.title_container {
+    padding: 116px 0 62px 0;
+    text-align: center;
+}
+
+.title_container h2 {
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.title_container p {
+    color: #666;
+}
+
+.product_02 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_02 ul li {
+    width: 260px;
+    height: 260px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* bottom */
 .bottom {
     padding: 60px;
