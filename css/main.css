@@ -227,7 +227,7 @@ body {
 
 /* big_banner */
 .big_banner {
-    background-image: url("../images/big_banner_bg.png");
+    background-image: url("../images/big.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -352,15 +352,15 @@ body {
 }
 
 .blog ul li:nth-child(1) {
-    background-image: url("../images/blog_01.png");
+    background-image: url("../images/5G.png.png");
 }
 
 .blog ul li:nth-child(2) {
-    background-image: url("../images/blog_02.png");
+    background-image: url("../images/자동차.png");
 }
 
 .blog ul li:nth-child(3) {
-    background-image: url("../images/blog_03.png");
+    background-image: url("../images/flagship_kv_s7.png");
 }
 
 /* bottom */
