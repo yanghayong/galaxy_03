@@ -225,6 +225,144 @@ body {
     justify-content: center;
 }
 
+/* big_banner */
+.big_banner {
+    background-image: url("../images/big_banner_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.big_banner .info_container {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.big_banner .info_container .info {
+    position: absolute;
+    top: 164px;
+    left: 56px;
+    color: #fff;
+}
+
+.big_banner .info_container .info h3 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.big_banner .info_container .info p {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 42px 0 56px 0;
+    line-height: 1.6;
+}
+
+.big_banner .info_container .info button {
+    display: inline-block;
+    height: 46px;
+    width: 168px;
+    background-color: #f2f2f2;
+    color: #111;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 46px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.big_banner .info_container .info button:hover {
+    background-color: #ed6d6e;
+    color: #fff;
+}
+
+/* .product_03 */
+.product_03 {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 116px 20px 100px 20px;
+}
+
+.title_container {
+    padding-bottom: 62px;
+    text-align: center;
+}
+
+.title_container h2 {
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.title_container p {
+    color: #666;
+}
+
+.product_03 ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.product_03 ul li {
+    width: 260px;
+    height: 260px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* blog */
+.blog {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 116px 20px 100px 20px;
+}
+
+.title_container {
+    padding-bottom: 62px;
+    text-align: center;
+}
+
+.title_container h2 {
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.title_container p {
+    color: #666;
+}
+
+.blog ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog ul li {
+    width: 360px;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 32px;
+}
+
+.blog ul li:nth-child(1) {
+    background-image: url("../images/blog_01.png");
+}
+
+.blog ul li:nth-child(2) {
+    background-image: url("../images/blog_02.png");
+}
+
+.blog ul li:nth-child(3) {
+    background-image: url("../images/blog_03.png");
+}
+
 /* bottom */
 .bottom {
     padding: 60px;
