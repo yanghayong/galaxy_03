@@ -1,0 +1,15 @@
+body {}
+
+.box {
+    height: 500px;
+    background-color: #ddd;
+    position: relative;
+}
+
+.box p::after {
+    content: ' 안녕';
+}
+
+.box p::before {
+    content: 'css ';
+}
