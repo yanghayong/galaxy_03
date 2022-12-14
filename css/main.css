@@ -319,7 +319,7 @@ body {
 .blog {
     width: 1200px;
     margin: 0 auto;
-    padding: 116px 20px 100px 20px;
+    padding: 0 20px 100px 20px;
 }
 
 .title_container {
